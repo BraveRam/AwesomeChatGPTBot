@@ -104,7 +104,8 @@ def ChatGPT_Function(user_id: int, prompt: str) -> str:
         res = requests.post(
             url=url, 
             json=data, 
-            headers=headers            
+            headers=headers,
+            timeout=15
         ).text
 
         gpt_result = ""
