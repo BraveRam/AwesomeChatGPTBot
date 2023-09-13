@@ -4,7 +4,7 @@ import json
 import os
 
 # Bot token to use
-Token = "Your Bot Token"
+Token = "5769907387:AAF0tVVa2RNQjFpOeYmRAIWBhzIBa1jFp4E"
 
 # Escape markdown filter
 def escape_markdown(string: str) -> str:
