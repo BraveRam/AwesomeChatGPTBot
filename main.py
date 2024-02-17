@@ -48,7 +48,7 @@ def start_command_handler(message: callable) -> None:
         GPTbot.send_chat_action(chat_id=message.chat.id, action="typing")
         GPTbot.reply_to(
             message=message,
-            text=f"Welcome Back {message.from_user.first_name}.\nLet's chat!\n\nCommands usage:\n/history: Get history in json format.\n/reset: Reset the chat\n/danmode: Enable/Disable DAN mode v10.0",
+            text=f"Welcome Back {message.from_user.first_name}.\nLet's chat:)\n\nCommands usage:\n/history: Get history in json format.\n/reset: Reset the chat\n/danmode: Enable/Disable DAN mode v10.0",
         )
 
     else:
@@ -62,7 +62,7 @@ def start_command_handler(message: callable) -> None:
         GPTbot.send_chat_action(chat_id=message.chat.id, action="typing")
         GPTbot.reply_to(
             message=message,
-            text=f"Welcome Dear {message.from_user.first_name}.\nLet's chat!\n\nCommands usage:\n/history: Get history in json format.\n/reset: Reset the chat\n/danmode: Enable/Disable DAN mode v10.0",
+            text=f"Welcome Dear {message.from_user.first_name}.\nLet's chat:)\n\nCommands usage:\n/history: Get history in json format.\n/reset: Reset the chat\n/danmode: Enable/Disable DAN mode v10.0",
         )
 
 
